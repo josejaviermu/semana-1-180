@@ -116,7 +116,50 @@ body{
     color: rgb(50,103,204);
 }
 
-.footer{
-    background-color: navy;
-    display: flex;
+footer{
+    width:auto;
+    background: #202020;
+    color: white;
+    padding: 70px;
+
+    
+   
+    
 }
+.container-body{display: flex;
+    justify-content: space-between;
+}
+
+.colum1{max-width:400px;
+}
+
+.colum1 h1{font-size: 22px;
+}
+
+.colum1 p{font-size: 14px;
+    color: #C7C7C7;
+    margin-top: 20px;
+}
+
+.colum2{
+    
+    max-width:400px;
+}
+.colum2 h1{font-size: 22px;
+}
+.colum2 .row{margin-top: 12px;
+    display:flex;
+
+}
+.row label{margin-top: 10px;
+    margin-left:20px;
+    color: #C7C7C7;
+
+}
+a {font-size:20px;
+text-decoration:none;
+display: inline-block;
+background: #fff;
+padding:10px 20px;
+}
+
